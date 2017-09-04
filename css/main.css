@@ -1,0 +1,89 @@
+
+ body {
+	  
+    font-family: "calibri", sans-serif;
+    color:#FAFAFA  ;
+    margin: 0;
+
+}
+
+#head{
+	margin: 0;
+	padding: 30px;
+	text-align: center;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 3px 10px 0 rgba(0, 0, 0, 0.12);
+  background-color: #f1f1f1!important;
+
+}
+#yearcount{
+  background-color: #f1f1f1!important;
+  margin: 0;
+  padding: 30px;
+  text-align: center;
+
+}
+body {
+  color: #000!important;
+  background-color: #fdf5e6!important;
+}
+
+.box{
+	height: 47px;
+	width: 300px;
+	font-size:large;
+	color: #17202A ;
+  border-radius: 5px;
+  outline: none; 
+  border: none;
+  padding: 12px;
+
+}
+.btn{
+	width: 150px;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 30px;
+  letter-spacing: 0.1em;
+  color: #e8e8e8;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  background: linear-gradient(135deg,#FF6D6D  ,#CC0000  );
+  background-size: 400% 400%;
+  cursor: pointer;
+ 
+  }
+  .btn:hover {
+    animation: gradient 10s ease infinite;
+    box-shadow: 0.2vw 0.2vw 0 #37474F   ;
+  }
+
+@keyframes gradient {
+  50% {
+    background-position: 100% 0;
+  }
+}
+
+
+footer{
+	background-color: #f1f1f1!important;
+	padding: 40px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 3px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+#demo{
+  font-family: "helvetica neue";
+  font-size: 30px;
+
+}
+#scroll{
+  overflow: auto;
+}
+.Contact{
+  text-decoration: none;
+   
+
+}
+.Contact:hover {
+    animation: gradient 10s ease infinite;
+    color: #FF6D6D;
+  }
